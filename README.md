@@ -12,6 +12,4 @@ Assembler & Runtime Simulator: [`MARS 4.5+`](http://courses.missouristate.edu/ke
 Connect & configure bitmap display & keyboard to the same specifications as below
 ```
 
-<div align="center">
-    <img src="usage.gif" alt="Game Usage" height=800, width=800/>
-</div>
+![MARS Usage](usage.gif)
