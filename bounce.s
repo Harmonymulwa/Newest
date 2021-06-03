@@ -21,11 +21,11 @@
 	dataPlatform: .space 40		# Platform Space Memory Array 10
 	dataDifficulty: .word 0, 0		# Speed, Score (Speed should be from 0 to 25)
 	
-	colorOrange: .word 0xf58f70	# For Doodler
-	colorGrey: .word 0x2F3437	# For Background
-	colorWhite: .word 0xffffff	# For Platforms
-	colorYellow: .word 0xffbf00	# For Text
-	colorBlue: .word 0x8cc8ff	# For Special Platforms
+	colorOrange: .word 0xf58f70	# Doodler Color
+	colorGrey: .word 0x2F3437	# Background Color
+	colorWhite: .word 0xffffff	# Platforms Color
+	colorYellow: .word 0xffbf00	# Text Color
+	colorBlue: .word 0x8cc8ff	# Special Platforms Color
 	
 .text
 	# Load Constants & Data
