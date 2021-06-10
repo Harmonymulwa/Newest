@@ -18,15 +18,15 @@
 .data
 	addressDisplay:	.word	0x10008000	# Base Address for Display
 	dataLocation: .word 0x100086bc, 0	# Potition, Acceleration (negative #s to 15)
-	dataPlatform: .space 40		# Platform Space Memory Array 10
-	dataDifficulty: .word 0, 0		# Speed, Score (Speed should be from 0 to 25)
+	dataPlatform: .space 40				# Platform Space Memory Array 10
+	dataDifficulty: .word 0, 0			# Speed (0 to 15), Score
 	
-	colorOrange: .word 0xf58f70	# Doodler Color
-	colorGrey: .word 0x2F3437	# Background Color
-	colorWhite: .word 0xffffff	# Platforms Color
-	colorYellow: .word 0xffbf00	# Text Color
-	colorBlue: .word 0x8cc8ff	# Special Platforms Color
-	
+	colorOrange: .word 0xf58f70			# Doodler Color
+	colorYellow: .word 0xffbf00			# Text Color
+	colorGrey: .word 0x2F3437			# Background Color
+	colorWhite: .word 0xffffff			# Platforms Color
+	colorBlue: .word 0x8cc8ff			# Special Platforms Color
+
 .text
 	# Load Constants & Data
 	lw $s0, addressDisplay
