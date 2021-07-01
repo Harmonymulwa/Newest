@@ -1,6 +1,6 @@
 # bounce
 
-bounce is a MIPS assembly mini game modelled after doodle jump.
+bounce is a MIPS assembly mini game modelled after [`doodle jump.`](https://en.wikipedia.org/wiki/Doodle_Jump)
 
 ## Usage
 
