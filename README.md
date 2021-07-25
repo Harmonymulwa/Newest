@@ -12,4 +12,4 @@ Assembler & Runtime Simulator: [`MARS 4.5+`](http://courses.missouristate.edu/ke
 Connect & configure bitmap display & keyboard to the specifications displayed below
 ```
 
-[![MARS Usage](usage.gif)](https://github.com/anthonytedja/bounce/blob/main/bounce.s)
+[![Gameplay](usage.gif)](https://github.com/anthonytedja/bounce/blob/main/bounce.s)
