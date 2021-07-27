@@ -7,7 +7,7 @@ bounce is a MIPS assembly game modelled after [`doodle jump.`](https://en.wikipe
 Assembler & Runtime Simulator: [`MARS 4.5+`](http://courses.missouristate.edu/kenvollmar/mars/download.htm)
 
 ```cpp
-'s' to reset anytime
+'s' to reset game
 'j' to move left
 'k' to move right
 
