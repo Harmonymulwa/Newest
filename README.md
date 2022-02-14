@@ -11,7 +11,7 @@ Assembler & Runtime Simulator: [`MARS 4.5+`](http://courses.missouristate.edu/ke
 Connect & configure the bitmap display & keyboard to the specifications displayed
 
 - Unit Width: `8px`
-- Unit Height `8px`
+- Unit Height: `8px`
 - Display Width: `256px`
 - Display Height: `256px`
 - Base Address: `0x10008000 ($gp)`
