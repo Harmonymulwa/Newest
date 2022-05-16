@@ -1,10 +1,12 @@
 # bounce
 
-[![Specifications](usage.gif)](https://github.com/anthonytedja/bounce/blob/main/bounce.s)
+[![Thumbnail](bounce.jpg)](https://github.com/anthonytedja/bounce/blob/main/bounce.s)
 
 > bounce is a MIPS assembly game modelled after [`doodle jump.`](https://en.wikipedia.org/wiki/Doodle_Jump)
 
 ## Usage
+
+[![Demo](usage.gif)](https://github.com/anthonytedja/bounce/blob/main/bounce.s)
 
 Assembler & Runtime Simulator: [`MARS 4.5+`](http://courses.missouristate.edu/kenvollmar/mars/download.htm)
 
@@ -33,4 +35,3 @@ Actions are taken with specific keyboard commands typed into the keyboard MMIO S
 ## Built With
 
 - MARS 4.5
-
