@@ -1,19 +1,3 @@
-#####################################################################
-#
-# All of the files in this directory and all subdirectories are:
-# Copyright (c) 2021 Anthony Tedja
-#
-# Bitmap Display Configuration:
-# 
-# Unit width in pixels: 8
-# Unit height in pixels: 8
-# Display width in pixels: 256
-# Display height in pixels: 256
-# Base Address for Display: 0x10008000 ($gp)
-#
-# "s" to reset anytime, "j" to move left, "k" to move right
-#
-#####################################################################
 
 .data
 	addressDisplay:	.word	0x10008000	# Base Address for Display
